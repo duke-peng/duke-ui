@@ -1,32 +1,42 @@
-import React from 'react';
-// import { Layout, Menu } from 'antd';
-// import logo from './logo.svg';
+import React, { Component } from 'react';
+import { BrowserRouter, NavLink } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import './App.css';
-import Name from './view/index'
-// const { Header, Footer, Content } = Layout
+import Home from './view/index'
 
-function App() {
- return (
-  <div className="App">
-   {/* <Layout theme='light'>
-    <Header style={{ background: '#fff', height: 40 }}>sdsdsd
-    </Header>
-    <Content >Content</Content>
-    <Footer style={{ position: 'fixed', padding: 0, zIndex: 1, bottom: 0, background: '#eee', width: '100%', }}>
-     <Menu
-      mode="horizontal"
-      defaultSelectedKeys={['2']}
-     >
-      <Menu.Item key="1">nav 1</Menu.Item>
-      <Menu.Item key="2">nav 2</Menu.Item>
-      <Menu.Item key="3">nav 3</Menu.Item>
-      <Menu.Item key="4">nav 4</Menu.Item>
-     </Menu>
-    </Footer>
-   </Layout> */}
-   <Name></Name>
-  </div >
- );
+
+export default class APP extends Component {
+ constructor() {
+  super()
+  this.state = {
+   vale: ""
+  }
+ }
+ render(h) {
+
+  return (
+
+   <BrowserRouter>
+    <div id='table'>
+     <Route path='/home' component={Home} />
+    </div>
+    <div id='nav'>
+     <NavLink to='/home' >主页</NavLink>
+     <NavLink to='/home' >热点</NavLink>
+     <NavLink to='/home' >推荐</NavLink>
+     <NavLink to='/home' >我的</NavLink>
+    </div>
+
+   </BrowserRouter>
+
+
+
+
+  )
+
+
+ }
+
+
 }
 
-export default App;

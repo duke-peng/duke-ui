@@ -14,11 +14,12 @@ export default class Name extends Component {
  }
  render(h) {
   return <div>
-   <button onClick={this.run.bind(this)}></button>
+   <button onClick={this.runs.bind(this)}>传递</button>
   </div>
  }
- run() {
+ runs() {
   alert(this.state.name)
+  this.props.setend(this.state.name)
  }
 
 }

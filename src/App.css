@@ -34,3 +34,27 @@
 .header{
  background: #fff
 }
+
+#root #table {
+
+}
+
+#root #nav{
+ height: 40px;
+ background: #eee;
+ width: 100%;
+ position: absolute;
+ display:flex;
+ bottom:0
+
+ 
+}
+#root #nav a{
+ width: 25%;
+ text-align: center;
+ line-height: 40px;
+ color:#000
+}
+#root #nav a.active{
+color:red
+}

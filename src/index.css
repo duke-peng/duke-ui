@@ -8,6 +8,20 @@ body {
   font-size: 62.5%
 }
 
+img { 
+ max-width: 100%;
+ border: 0;
+ vertical-align: middle;
+}
+ul, ol {
+ list-style: none outside none; 
+} 
+h1, h2, h3, h4, h5, h6, p, figure, form, blockquote { 
+ margin: 0; 
+} 
+ul, ol, li, dl, dd { 
+ margin: 0; padding: 0; 
+} 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

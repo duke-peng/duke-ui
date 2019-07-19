@@ -31,3 +31,15 @@
  
  
 }
+#header__nav{
+ display: flex;
+ justify-content: space-around
+}
+#header__nav>ul{
+ overflow: hidden;
+ display: flex;
+}
+#header__nav>ul>li{
+ width: 33.3%
+ 
+}

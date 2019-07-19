@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel, Icon } from 'antd';
+import { Carousel, Icon, Button } from 'antd';
 
 import './index.css'
 
@@ -22,8 +22,20 @@ export default class Name extends Component {
      <div id='header__main'>
       <Icon type="search" id='header__search' />
      </div>
-
-
+    </div>
+    <div id='header__nav'>
+     {/* <ul>
+      <li>1</li>
+      <li>1</li>
+      <li>1</li>
+      <li>1</li>
+      <li>1</li>
+     </ul> */}
+     <Button type="link">Link</Button>
+     <Button type="link">Link</Button>
+     <Button type="link">Link</Button>
+     <Button type="link">Link</Button>
+     <Button type="link">Link</Button>
     </div>
     <Carousel autoplay>
      <div>
@@ -39,7 +51,9 @@ export default class Name extends Component {
       <h3>4</h3>
      </div>
     </Carousel>
+    <div id='main'>
 
+    </div>
    </div >
   )
 

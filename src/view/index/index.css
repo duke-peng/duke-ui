@@ -1,0 +1,33 @@
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+#header{
+ padding: 10px 20px;
+ background: pink;
+ margin-bottom: 5px
+
+}
+#header__main{
+ width: 100%;
+ background: #fff;
+ border-radius: 15px;
+ height: 60px;
+}
+#header__search{
+ float: right;
+ font-size: 35px;
+ color: pink;
+ line-height: 60px;
+ margin-right: 10px
+ 
+ 
+}

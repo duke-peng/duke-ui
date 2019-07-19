@@ -40,7 +40,7 @@
 }
 
 #root #nav{
- height: 40px;
+ height: 100px;
  background: #eee;
  width: 100%;
  position: absolute;
@@ -52,9 +52,10 @@
 #root #nav a{
  width: 25%;
  text-align: center;
- line-height: 40px;
+ line-height: 100px;
  color:#000
 }
 #root #nav a.active{
-color:red
+color:red;
+background: pink
 }

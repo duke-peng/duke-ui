@@ -1,0 +1,24 @@
+#my__header{
+height:300px;
+background: pink;
+padding-top:80px;
+display: flex;
+padding-left: 30px;
+align-items: center 
+}
+#user__name{
+ font-size: 30px;
+ color: #fff;
+ margin: 0 20px ;
+ display: flex;
+flex-direction: column
+}
+#message{
+  position: absolute; right: 150px;
+     color: #fff;
+    
+
+}
+#my{
+ background: #ECECEC
+}

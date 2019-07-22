@@ -36,7 +36,8 @@
 }
 
 #root #table {
-
+     height: 100%;
+    overflow: auto;
 }
 
 #root #nav{

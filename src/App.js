@@ -21,6 +21,7 @@ export default class APP extends Component {
 
    <BrowserRouter>
     <div id='table'>
+     <Route path='/' exact component={Home} />
      <Route path='/home' component={Home} />
      <Route path='/hot' component={Hot} />
      <Route path='/my' component={My} />
@@ -29,8 +30,8 @@ export default class APP extends Component {
     <div id='nav'>
      <NavLink to='/home' >主页</NavLink>
      <NavLink to='/hot' >热点</NavLink>
-     <NavLink to='/my' >推荐</NavLink>
-     <NavLink to='/best' >我的</NavLink>
+     <NavLink to='/best'>推荐</NavLink>
+     <NavLink to='/my'>我的</NavLink>
     </div>
 
    </BrowserRouter>

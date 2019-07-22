@@ -1,7 +1,7 @@
 .ant-carousel .slick-slide {
   text-align: center;
-  height: 160px;
-  line-height: 160px;
+  height: 300px;
+  line-height: 300px;
   background: #364d79;
   overflow: hidden;
 }
@@ -33,7 +33,8 @@
 }
 #header__nav{
  display: flex;
- justify-content: space-around
+ justify-content: space-around;
+ margin-bottom: 10px;
 }
 #header__nav>ul{
  overflow: hidden;
@@ -42,4 +43,19 @@
 #header__nav>ul>li{
  width: 33.3%
  
+}
+#main ul{
+ overflow: hidden;
+  border-right: 1px solid #ccc;
+ width: 100%
+}
+#main ul li{
+ float: left;
+ width: 25%;
+ height: 200px;
+ border-left: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+#main__show> div{
+  float: left;
 }
